@@ -43,9 +43,21 @@ html,body{
   background-color: transparent;
 }
 
-.card-footer{
+.pricing-card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.pricing-card .card-footer{
   background-color: #e6f0f5 !important;
   border: none !important;
+  visibility: hidden;
+}
+
+.pricing-card:hover .card-footer{
+  visibility: visible;
 }
 
 h1 {
