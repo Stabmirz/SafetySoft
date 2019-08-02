@@ -131,6 +131,63 @@ h4 {
   text-align: center;
 }
 
+/* FAQ COLLAPSE/EXPAND STYLES */
+
+.faq{
+  margin-top: 80px;
+}
+
+.faq-body{
+  padding: 10px;
+}
+
+.faqanswer {
+	display: none;
+	padding: 12px 20px 0 30px;	
+}
+
+.faqanswer p {
+	font-size: 13px;
+	line-height: 17px;	
+}
+
+.faq a:hover{
+  text-decoration: none;
+  color: #193347;
+}
+
+.togglefaq {
+	text-decoration: none;
+  color: #193347;
+	font-size: 16px;
+	padding: 10px 30px;
+	line-height: 20px;
+	display: block;
+  margin-bottom: -1px;
+  font-weight:600;
+}
+
+.icon-down {
+	color: #5ec4cd;
+	margin-right: 20px;
+	font-size: 20px;
+	float:left;
+}
+
+.icon-up {
+	color: #5ec4cd;
+	margin-right: 20px;
+  font-size: 20px;
+  transform: rotate(180deg);
+	float:left;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+
 /* h1 {
   font-size: 38px;
   font-weight: bold;
