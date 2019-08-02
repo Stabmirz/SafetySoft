@@ -151,7 +151,7 @@ h4 {
 	line-height: 17px;	
 }
 
-.faq a:hover{
+.faq-body a:hover{
   text-decoration: none;
   color: #193347;
 }
