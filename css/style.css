@@ -3,7 +3,8 @@ html,body{
   padding: 0;
   background: url(../images/background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   color: #193347;
   font-size: 20px;
@@ -14,20 +15,61 @@ html,body{
 }
 
 .main-container {
-  margin: 50px 120px;
+  margin-left: 170px;
+  margin-right: 120px;
+  margin-top: 169px;
   padding: 0;
-  display: block;
 }
 
-h3 .card-title.emo-no{
-  font-weight: 900 !important;
+.small-icon-wrap {
+    position: absolute;
+    width: 80%;
 }
+
+@media only screen and (max-width: 700px) {
+  .small-icon-wrap{
+    display: none;
+  }
+}
+
+.price-icon {
+  display: block;
+  max-width: 40px;
+  position: absolute;
+}
+
+.price-icon:nth-child(1) {
+  max-width: 65px;
+  left: 935px;
+  top: -147px;
+}
+.price-icon:nth-child(2) {
+  max-width: 20px;
+  left: 55px;
+  top: -13px;
+}
+.price-icon:nth-child(3) {
+  max-width: 53px;
+  left: -30px;
+  top: -138px;
+}
+.price-icon:nth-child(4) {
+  max-width: 17px;
+  left: 545px;
+  top: -42px;
+}
+.price-icon:nth-child(5) {
+  max-width: 35px;
+  left: 550px;
+  top: -137px;
+}
+
 .pricing-body{
-  margin-bottom: 80px;
+  margin-top: 120px;
 }
 
 .card-deck{
-  margin: 10px 40px !important;
+  margin-right: 10px !important;
 }
 
 .card.pricing-card{
@@ -42,6 +84,18 @@ h3 .card-title.emo-no{
   background-color: white;
 }
 
+.top{
+  height: 100px;
+}
+
+.middle{
+  height: 200px;
+}
+
+.bottom{
+  height: 100px;
+}
+
 .pricing-card .card-footer{
   background-color: #e6f0f5 !important;
   border: none !important;
@@ -52,24 +106,50 @@ h3 .card-title.emo-no{
   visibility: visible;
 }
 
+.emp-no{
+  display: flex;
+}
+
+.emp-no-text{
+  margin-left: 5px;
+  color: #7a9bad;
+}
+
+.employee{
+  margin-top: -25px;
+  color: #7a9bad;
+}
+
 h1 {
   color: #daebf4;
   font-size: 180px;
   line-height: 1;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 h2 {
   color: #daebf4;
-  font-size: 135px;
+  font-size: 125px;
   line-height: 1;
   font-weight: 900;
 }
 
+h3{
+  color: #7095a8;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+h3.enterprice{
+  color:#a6b02b;
+  font-size:36px;
+  font-weight:900;
+}
 
 h4 {
   color: #daebf4;
-  font-size: 58px;
+  font-size: 68px;
   line-height: 1;
   font-weight: 700;
   margin-top:-30px;
@@ -83,13 +163,13 @@ h4 {
   text-decoration: none;
   text-shadow: 0 3px 5px rgba(33,62,83,0.2);
   color: #fff;
-  letter-spacing: -1px;
+  letter-spacing: -0.4px;
   text-align: center;
   cursor: pointer;
   transition: .3s ease;
   line-height: 1.2;
   border-radius: 8px;
-  padding:16px;
+  padding:20px 25px;
   box-shadow: 0 15px 25px rgba(25,51,71,0.1), inset 0 -4px 0 rgba(0,0,0,0.1);
 }
 
@@ -107,7 +187,7 @@ h4 {
 }
 
 .btn-1:hover{
-  background-color: #97c6e0;
+  background-color: #8fbcd4;
 }
 
 .btn-2{
@@ -115,7 +195,7 @@ h4 {
 }
 
 .btn-2:hover{
-  background-color: #7095a8;
+  background-color: #688b9c;
 }
 
 .btn-3{
@@ -123,15 +203,15 @@ h4 {
 }
 
 .btn-3:hover{
-  background-color: #4a6270;
+  background-color: #425864;
 }
 
 .btn-4{
   background-color: #273238;
 }
 
-.btn-4{
-  background-color: #273238;
+.btn-4:hover{
+  background-color: #1e272c;
 }
 
 .btn-5{
@@ -141,8 +221,6 @@ h4 {
 .btn-5:hover{
   background-color: #c2ce3b;;
 }
-
-
 
 .feature-title{
   margin: 50px 240px;
@@ -166,7 +244,12 @@ h4 {
   flex: 1 1 auto;
 }
 
-.card-text{
+.feature-heading{
+  color:#173347;
+  font-size: 24px;
+  font-weight:600;
+}
+.feature-text{
   line-height: 0.9;
   font-size: 16px;
   font-weight: 300;
@@ -346,32 +429,39 @@ p {
   position: relative;
 }
 
-.float-icon:nth-child(1) {
+
+.contact-icon {
+  display: block;
+  max-width: 40px;
+  position: absolute;
+}
+
+.contact-icon:nth-child(1) {
   max-width: 72px;
   right: 82px;
   top: -40px;
 }
-.float-icon:nth-child(2) {
+.contact-icon:nth-child(2) {
   max-width: 36px;
   left: -53px;
   bottom: 56px;
 }
-.float-icon:nth-child(3) {
+.contact-icon:nth-child(3) {
   max-width: 80px;
   left: -7px;
   bottom: -25px;
 }
-.float-icon:nth-child(4) {
+.contact-icon:nth-child(4) {
   max-width: 12px;
   left: -81px;
   bottom: 23px;
 }
-.float-icon:nth-child(5) {
+.contact-icon:nth-child(5) {
   max-width: 42px;
   right: 147px;
   top: 40px;
 }
-.float-icon:nth-child(6) {
+.contact-icon:nth-child(6) {
   max-width: 25px;
   right: -27px;
   top: -27px;
@@ -525,27 +615,6 @@ p {
   }
 }
 
-.float-icon {
-  display: block;
-  max-width: 40px;
-  position: absolute;
-}
-
-.anim-icon-wrap {
-  position: relative;
-}
-
-.small-icon-wrap {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-@media only screen and (max-width: 700px) {
-  .small-icon-wrap{
-    display: none;
-  }
-}
 
 .lift-up {
   position: fixed;
