@@ -95,6 +95,11 @@ h4 {
   flex: 1 1 auto;
 }
 
+.card-text{
+  line-height: 0.9;
+  font-size: 16px;
+  font-weight: 300;
+}
 .row.feature-row{
   margin-bottom: 20px;
 }

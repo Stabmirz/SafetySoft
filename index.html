@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SafetySoft</title>
     <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" type="text/css" href="css/font.css" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,12 +14,12 @@
 </head>
 <body>
     <div class="main-container">
-        <div class="price">
+        <div class="price" data-aos="fade-up" data-aos-duration="2000">
             <div class="pricing-body">
                 <h2>pricing options</h2>
             </div>
             <div class="pricing-body">
-                <div class="card-deck">
+                <div class="card-deck" data-aos="fade-up" data-aos-duration="2500">
                     <div class="card pricing-card">
                         <div class="card-body text-center">
                             <h3 class="card-title">50</h3><span>employees or under</span>
@@ -76,13 +77,13 @@
         </div>
         <div class="feature">
             <div class="feature-title">
-                <h1>features</h1>
-                <h4>make a positive training impact</h4>
-                <p class="feature-para">Choose to use our system or add content to yours!</p>
+                <h1 data-aos="fade-up">features</h1>
+                <h4 data-aos="fade-up" data-aos-duration="1000">make a positive training impact</h4>
+                <p class="feature-para" data-aos="fade-up" data-aos-duration="1500">Choose to use our system or add content to yours!</p>
             </div>
             <div class="feature-body">
                 <div class="row feature-row">
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-6" data-aos="fade-right" data-aos-duration="1000">
                         <div class="card feature-card">
                             <div class="card-horizontal">
                                 <div class="img-square-wrapper aligncenter">
@@ -95,8 +96,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="card feature-card">
+                    <div class="col-xs-12 col-sm-6" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="card feature-card" >
                             <div class="card-horizontal">
                                 <div class="img-square-wrapper aligncenter">
                                     <img class="feature-image" src="./SVG_icons/SS/icon_mobile friendly_T1A.svg" alt="Card image cap">
@@ -110,7 +111,7 @@
                     </div>
                 </div>
                 <div class="row feature-row">
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-6" data-aos="fade-right" data-aos-duration="1500">
                         <div class="card feature-card">
                             <div class="card-horizontal">
                                 <div class="img-square-wrapper aligncenter">
@@ -123,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-6" data-aos="fade-left" data-aos-duration="1500">
                         <div class="card feature-card">
                             <div class="card-horizontal">
                                 <div class="img-square-wrapper aligncenter">
@@ -138,7 +139,7 @@
                     </div>
                 </div>
                 <div class="row feature-row">
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-6" data-aos="fade-right" data-aos-duration="2000">
                         <div class="card feature-card">
                             <div class="card-horizontal">
                                 <div class="img-square-wrapper aligncenter">
@@ -151,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-6" data-aos="fade-left" data-aos-duration="2000">
                         <div class="card feature-card">
                             <div class="card-horizontal">
                                 <div class="img-square-wrapper aligncenter">
@@ -289,5 +290,9 @@
     <div class="lift-up js-lift-up"></div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/aos.js"></script>
+   <script>
+       AOS.init();
+   </script>
 <script src="js/script.js"></script>
 </html>

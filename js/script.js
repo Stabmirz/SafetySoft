@@ -1,3 +1,4 @@
+
 //faq toggle stuff 
 $('.togglefaq').click(function(e) {
     e.preventDefault();
@@ -7,6 +8,10 @@ $('.togglefaq').click(function(e) {
      $(this).toggleClass('active').next().slideToggle("fast");
     $(this).children('i').toggleClass('icon-down icon-up');
 });
+
+
+//lift-up
+
 
 var $_ = {
     init: function () {
