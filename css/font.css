@@ -72,7 +72,7 @@
 }
 @font-face {
   font-family: 'Poppins';
-  src: local('Poppins Poppins-SemiBoldMedium'), local('Poppins-Medium'), url('../FONTS/Poppinspoppins-semiboldmedium.woff2') format('woff2'), url('../FONTS/Poppinspoppins-semiboldmedium.woff') format('woff'), url('../FONTS/Poppinspoppins-semiboldmedium.ttf') format('truetype');
+  src: local('Poppins Poppins-SemiBoldMedium'), local('Poppins-Medium'), url('../FONTS/Poppinspoppins-semiboldmedium.woff2') format('woff2'), url('../FONTS/Poppinspoppins-semiboldmedium.woff') format('woff'), url('../FONTS/P') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
