@@ -19,7 +19,9 @@ html,body{
   display: block;
 }
 
-
+h3 .card-title.emo-no{
+  font-weight: 900 !important;
+}
 .pricing-body{
   margin-bottom: 80px;
 }
