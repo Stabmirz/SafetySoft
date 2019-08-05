@@ -258,8 +258,28 @@ h4 {
   width: 90%;
   padding:15px 25px;
 }
+
 .btn-5:hover{
   background-color: #c2ce3b;;
+}
+
+.card-footer{
+  font-size:18px;
+  line-height: 1;
+}
+
+small{
+  font-weight: 300;
+}
+
+.footer-dollar{
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.content-only{
+  font-weight: 600;
 }
 
 .feature-title{
@@ -289,11 +309,13 @@ h4 {
   font-size: 24px;
   font-weight:600;
 }
+
 .feature-text{
   line-height: 0.9;
   font-size: 16px;
   font-weight: 300;
 }
+
 .row.feature-row{
   margin-bottom: 20px;
 }
