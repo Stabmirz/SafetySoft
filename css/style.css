@@ -160,9 +160,9 @@ html,body{
 
 h1 {
   color: #daebf4;
-  font-size: 180px;
+  font-size: 170px;
   line-height: 1;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 h2 {
@@ -191,6 +191,7 @@ h4 {
   line-height: 1;
   font-weight: 700;
   margin-top:-30px;
+  letter-spacing: -1px;
 }
 
 .btn-light{
@@ -282,21 +283,30 @@ small{
   font-weight: 600;
 }
 
+/* Feature Section */
+
+
 .feature-title{
-  margin: 50px 240px;
+  margin: 135px 125px 75px 168px;
   padding: 0;
+}
+
+.feature-subtitle{
+  margin-left: 8px;
 }
 
 .feature-para{
   text-align: right;
-  font-size:24px;
+  font-size:26px;
+  font-weight: 300;
+  margin-top: -8px;
 }
 
 .card.feature-card{
   padding:5px;
   border:none;
   background-color: white;
-  box-shadow: 0 4px 20px rgba(181, 229, 243, 0.664);
+  box-shadow: 0 4px 20px rgba(202, 233, 243, 0.664);
 }
 
 .card-horizontal {
@@ -304,38 +314,50 @@ small{
   flex: 1 1 auto;
 }
 
-.feature-heading{
+.feature-card-heading{
   color:#173347;
-  font-size: 24px;
+  font-size: 26px;
   font-weight:600;
 }
 
-.feature-text{
-  line-height: 0.9;
-  font-size: 16px;
+
+.feature-card-text{
+  line-height: 1.2;
+  font-size: 17px;
   font-weight: 300;
 }
 
 .row.feature-row{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.feature-body .card-body{
+  height:160px;
+  margin:0px 10px;
 }
 
 .img-square-wrapper.aligncenter {
   align-self: center;
 }
 
-.feature-image{
+.feature-card-image{
   width: 120px;
   height: 80px;
 }
 
 .solutions{
-  margin: 80px 25%;
+  margin: 185px 25%;
 }
 
 .solutions-body{
   display: flex;
   flex-direction: row;
+  margin-top:-30px;
+}
+
+.h2-2{
+  margin-top:-25px;
 }
 
 .solutions-body-left{
@@ -343,7 +365,7 @@ small{
 }
 
 .q-sign{
-  font-size:280px;
+  font-size:250px;
 }
 
 .q-text{
