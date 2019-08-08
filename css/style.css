@@ -347,7 +347,8 @@ small{
 }
 
 .solutions{
-  margin: 185px 25%;
+  margin-top: 185px ;
+  margin-left:18%;
 }
 
 .solutions-body{
@@ -369,17 +370,23 @@ small{
 }
 
 .q-text{
-  font-size: 32px;
+  font-size: 26px;
+  margin-top:10px;
+  margin-left:150px;
+  font-weight: 300;
 }
 
-.q-button{
-  text-align: center;
+.info-btn{
+  margin-top:15px;
+  margin-left:-300px;
 }
+
 
 /* FAQ COLLAPSE/EXPAND STYLES */
 
 .faq{
   margin-top: 80px;
+  margin-left:50px;
 }
 
 .faq-body{
@@ -392,9 +399,9 @@ small{
 }
 
 .faqanswer p {
-	font-size: 13px;
+	font-size: 14px;
   line-height: 17px;	
-  margin-left: 37px;
+  margin-left: 80px;
 }
 
 .faq-body a:hover{
@@ -405,7 +412,7 @@ small{
 .togglefaq {
 	text-decoration: none;
   color: #193347;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 10px 30px;
 	line-height: 20px;
 	display: block;
@@ -413,19 +420,35 @@ small{
   font-weight:600;
 }
 
-.icon-down {
-	color: #5ec4cd;
-	margin-right: 20px;
-	font-size: 20px;
-	float:left;
+.icon{
+  width: 100px;
 }
 
+.ques-icon{
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-image: url(../images/svg/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  float:left;
+  margin-right: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+
 .icon-up {
-	color: #5ec4cd;
-	margin-right: 20px;
-  font-size: 20px;
+	margin-right: 30px;
+  height: 60px;
+  width: 60px;
+  background-image: url(../images/svg/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   transform: rotate(180deg);
-	float:left;
+  float:left;
+  background-color: white;
+  border-radius: 50%;
 }
 
 p {
@@ -450,8 +473,8 @@ p {
 
 .trial-btn, .info-btn{
   background-color: #d2de40;
-  font-size: 30px;
   font-weight: 700;
+  padding:17px 30px;
 }
 
 .trial-btn:hover, .info-btn:hover{
