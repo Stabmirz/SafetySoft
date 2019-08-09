@@ -351,6 +351,40 @@ small{
   height: 80px;
 }
 
+.feature-icon {
+  display: block;
+  max-width: 40px;
+  position: absolute;
+}
+
+.feature-icon:nth-child(1) {
+  max-width: 100px;
+  left: 340px;
+  bottom: -65px;
+}
+.feature-icon:nth-child(2) {
+  max-width: 20px;
+  left: 78px;
+  bottom: 240px;
+}
+.feature-icon:nth-child(3) {
+  max-width: 12px;
+  left: 815px;
+  bottom: 200px;
+}
+.feature-icon:nth-child(4) {
+  max-width: 60px;
+  left: 720px;
+  bottom: 240px;
+}
+.feature-icon:nth-child(5) {
+  max-width: 20px;
+  left: 300px;
+  bottom: -20px;
+}
+
+
+/* More Solutions */
 .solutions{
   margin-top: 185px ;
   margin-left:18%;
@@ -389,6 +423,37 @@ small{
   padding:17px 30px;
 }
 
+.solution-icon {
+  display: block;
+  max-width: 40px;
+  position: absolute;
+}
+
+.solution-icon:nth-child(1) {
+  max-width: 62px;
+  left: 785px;
+  bottom: 255px;
+}
+.solution-icon:nth-child(2) {
+  max-width: 15px;
+  left: -60px;
+  bottom: 180px;
+}
+.solution-icon:nth-child(3) {
+  max-width: 12px;
+  left: 870px;
+  bottom: 330px;
+}
+.solution-icon:nth-child(4) {
+  max-width: 40px;
+  left: -40px;
+  bottom: 200px;
+}
+.solution-icon:nth-child(5) {
+  max-width: 18px;
+  left: 135px;
+  bottom: 100px;
+}
 
 /* FAQ COLLAPSE/EXPAND STYLES */
 
@@ -483,6 +548,32 @@ p {
   padding-bottom: 20px;
 }
 
+.faq-icon {
+  display: block;
+  max-width: 40px;
+  position: absolute;
+}
+
+.faq-icon:nth-child(1) {
+  max-width: 62px;
+  left: 485px;
+  bottom: -60px;
+}
+.faq-icon:nth-child(2) {
+  max-width: 15px;
+  left: -15px;
+  bottom: 140px;
+}
+.faq-icon:nth-child(3) {
+  max-width: 12px;
+  left: 550px;
+  bottom: 10px;
+}
+.faq-icon:nth-child(4) {
+  max-width: 40px;
+  left: 0px;
+  bottom: 160px;
+}
 
 /* contact */
 .container{
@@ -638,38 +729,6 @@ p {
   color: #193347;
   font-size: 18px;
 }
-
-/* @include media_1200 {
-
-  &__nav {
-    flex-wrap: wrap;
-  }
-
-  &__link {
-    margin-bottom: 15px;
-  }
-}
-
-@include media_900 {
-  padding-top: 85px;
-
-  &__logo-wrap {
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  &__logo {
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-
-  &__copyright {
-    font-size: 14px;
-  }
-
-  &__link {
-    font-size: 16px;
-  } */
 
 
 .row {
