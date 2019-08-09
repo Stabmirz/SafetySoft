@@ -1,10 +1,14 @@
-html,body{
+html * {
+  max-height: 9999999px;
+}
+
+body{
   margin:0;
   padding: 0;
   background: url(../images/background.png);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: contain;
   display: flex;
   color: #193347;
   font-size: 20px;
@@ -12,13 +16,14 @@ html,body{
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+  position: relative;
+  height: 100%;
 }
 
 .main-container {
   margin-left: 170px;
   margin-right: 120px;
-  margin-top: 169px;
-  padding: 0;
+  margin-top: 175px;
 }
 
 .small-icon-wrap {
@@ -107,7 +112,7 @@ html,body{
 }
 
 .enterprise-bottom{
-  height:110px;
+  height: 120px;
   font-size: 18px;
 }
 
@@ -377,31 +382,52 @@ small{
 }
 
 .info-btn{
-  margin-top:15px;
+  margin-top: 15px;
   margin-left:-300px;
+  background-color: #d2de40;
+  font-weight: 700;
+  padding:17px 30px;
 }
 
 
 /* FAQ COLLAPSE/EXPAND STYLES */
 
-.faq{
+.questions{
   margin-top: 80px;
+  min-width: 200px;;
+}
+
+.faq{
+  margin-top: 100px;
+}
+
+.faq h1{
   margin-left:50px;
 }
 
 .faq-body{
-  padding: 10px;
+  margin-left:45px;
+}
+
+.faq-heading{
+  margin-top:15px;
 }
 
 .faqanswer {
 	display: none;
-	padding: 12px 20px 0 30px;	
+  padding: 8px 20px 0 30px;	
+  height: auto;
 }
 
 .faqanswer p {
-	font-size: 14px;
-  line-height: 17px;	
-  margin-left: 80px;
+	font-size: 18px;
+  margin: 0px 0px 20px 65px;
+  padding: 0;
+  font-weight: 300;
+}
+
+.faq-body a{
+  margin-left:-5pc;
 }
 
 .faq-body a:hover{
@@ -413,39 +439,40 @@ small{
 	text-decoration: none;
   color: #193347;
 	font-size: 18px;
-	padding: 10px 30px;
-	line-height: 20px;
+	padding: 3px 30px;
 	display: block;
   margin-bottom: -1px;
   font-weight:600;
 }
 
 .icon{
-  width: 100px;
+  width:120px;
 }
 
 .ques-icon{
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   display: block;
   background-image: url(../images/svg/arrow.svg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 40%;
   float:left;
-  margin-right: 30px;
+  margin-right: 100px;
   background-color: white;
   border-radius: 50%;
 }
 
 
 .icon-up {
-	margin-right: 30px;
+  margin-left:-10px;
+  margin-right: 95px;
   height: 60px;
   width: 60px;
-  background-image: url(../images/svg/arrow.svg);
+  background-image: url(../images/svg/arrow1-green.svg);
   background-repeat: no-repeat;
-  background-position: center;
-  transform: rotate(180deg);
+  background-position: center center;
+  background-size: 30%;
   float:left;
   background-color: white;
   border-radius: 50%;
@@ -471,10 +498,12 @@ p {
   flex: 0 0 60%;
 }
 
-.trial-btn, .info-btn{
+.trial-btn{
   background-color: #d2de40;
   font-weight: 700;
   padding:17px 30px;
+  font-size: 26px;
+  margin-top: 20px;
 }
 
 .trial-btn:hover, .info-btn:hover{
@@ -517,10 +546,6 @@ p {
   margin-right: 18px;
 }
 
-.free-trial-btn{
-  margin-top: 20px;
-}
-
 .contacts-btn{
   display: inline;
 }
@@ -545,8 +570,8 @@ p {
 
 .contact-icon:nth-child(1) {
   max-width: 72px;
-  right: 82px;
-  top: -40px;
+  left: 400px;
+  top: -350px;
 }
 .contact-icon:nth-child(2) {
   max-width: 36px;
@@ -554,7 +579,7 @@ p {
   bottom: 56px;
 }
 .contact-icon:nth-child(3) {
-  max-width: 80px;
+  max-width: 60px;
   left: -7px;
   bottom: -25px;
 }
@@ -564,83 +589,19 @@ p {
   bottom: 23px;
 }
 .contact-icon:nth-child(5) {
-  max-width: 42px;
-  right: 147px;
-  top: 40px;
-}
-.contact-icon:nth-child(6) {
-  max-width: 25px;
-  right: -27px;
-  top: -27px;
+  max-width: 32px;
+  left: 360px;
+  top: -270px;
 }
 
-
-/* @include media_1200 {
-  .contacts {
-    &__title {
-      font-size: 30px;
-
-      span {
-        font-size: 35px;
-      }
-    }
-
-    &__subtitle {
-      font-size: 20px;
-      margin-bottom: 20px;
-
-    }
-  }
-}
-
-@include media_1000 {
-  .contacts {
-    &__title {
-      font-size: 26px;
-
-      span {
-        font-size: 30px;
-      }
-    }
-
-    &__subtitle {
-      font-size: 20px;
-      margin-bottom: 20px;
-
-    }
-  }
-}
-
-@include media_700 {
-  .contacts {
-    padding: 30px 0;
-    .row {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-
-    &__helmet {
-      max-width: 300px;
-      height: auto;
-      margin: 20px auto;
-    }
-  }
-}
-
-@include media_400 {
-  .contacts {
-    &__helmet {
-      max-width: 100%;
-    }
-  }
-} */
 
 /* Footer */
 
 .footer {
   position: relative;
-  padding: 200px 0 20px;
+  padding: 200px 0 45px;
 }
+
 .footer-logo-wrap {
   display: flex;
   align-items: center;
@@ -653,7 +614,7 @@ p {
 
 .footer-logo img{
   display: block;
-  max-width: 155px;
+  max-width: 160px;
   height: auto;
 }
 
@@ -665,17 +626,17 @@ p {
 
 .footer-nav a{
   color: #193347;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 1;
   margin-right: 20px;
   text-decoration: none;
 }
 
 .footer-copyright {
-  opacity: 0.75;
-  color: 193347;
-  font-size: 20px;
+  opacity: 0.5  ;
+  color: #193347;
+  font-size: 18px;
 }
 
 /* @include media_1200 {
