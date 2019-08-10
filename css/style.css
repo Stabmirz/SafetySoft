@@ -1,23 +1,18 @@
-html * {
-  max-height: 9999999px;
-}
 
 body{
-  margin:0;
-  padding: 0;
   background: url(../images/background.png);
+  background-color:#dae6ed;
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
+  height: 100vh;
+  flex-direction: column;
   color: #193347;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
-  position: relative;
-  height: 100%;
 }
 
 .main-container {
@@ -28,7 +23,7 @@ body{
 
 .small-icon-wrap {
     position: absolute;
-    width: 80%;
+    width: 60%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -308,7 +303,7 @@ small{
 }
 
 .card.feature-card{
-  padding:5px;
+  padding: 5px;
   border:none;
   background-color: white;
   box-shadow: 0 4px 20px rgba(202, 233, 243, 0.664);
@@ -340,6 +335,7 @@ small{
 .feature-body .card-body{
   height:160px;
   margin:0px 10px;
+  width:80%;
 }
 
 .img-square-wrapper.aligncenter {
@@ -486,7 +482,7 @@ small{
 
 .faqanswer p {
 	font-size: 18px;
-  margin: 0px 0px 20px 65px;
+  margin: 0px 50px 20px 65px;
   padding: 0;
   font-weight: 300;
 }
