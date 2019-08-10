@@ -35,7 +35,7 @@ body{
 
 .gradient{
   margin: 0;
-  color: #fff;
+  color: #000;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(45deg, #eaf3f7, #c6e1f1);
   background-image: -o-linear-gradient(45deg, #eaf3f7, #cbe1ef);
@@ -422,10 +422,18 @@ small{
 
 .h2-2{
   margin-top:-32px;
-  color: #fff;
+  color: #000;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(45deg, #c6e1f1, #eaf3f7);
   background-image: -o-linear-gradient(45deg,#cbe1ef, #eaf3f7);
+  -webkit-background-clip: text;
+}
+
+.h1-faq{
+  color: #000;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(45deg, #cde2f0, #ddecf5);
+  background-image: -o-linear-gradient(45deg,#cde2f0, #ddecf5);
   -webkit-background-clip: text;
 }
 
@@ -435,7 +443,7 @@ small{
 
 .q-sign{
   font-size:250px;
-  color: #fff;
+  color: #000;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient( #daebf3, #e8f3f6);
   background-image: -o-linear-gradient( #daebf3, #e8f3f6);
