@@ -437,8 +437,8 @@ small{
   font-size:250px;
   color: #fff;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-linear-gradient( #cbe1ef, #eaf3f7);
-  background-image: -o-linear-gradient( #cbe1ef, #eaf3f7);
+  background-image: -webkit-linear-gradient( #daebf3, #e8f3f6);
+  background-image: -o-linear-gradient( #daebf3, #e8f3f6);
   -webkit-background-clip: text;
 }
 
