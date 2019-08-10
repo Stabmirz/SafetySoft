@@ -33,13 +33,6 @@ body{
   }
 }
 
-/* 
-.gradient{
-  background: linear-gradient(to right, #eaf3f7 0%,#cee3f1 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
 .main-container {
   margin-left: 170px;
   margin-right: 120px;
@@ -137,7 +130,7 @@ body{
 }
 
 .pricing-card .card-footer{
-  background-color: #e6f0f5 !important;
+  background-color: #e6f0f5 !important; 
   border: none !important;
   visibility: hidden;
 }
@@ -299,7 +292,7 @@ small{
 }
 
 .footer-dollar{
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
   letter-spacing: -0.5px;
 }
@@ -702,8 +695,8 @@ p {
 }
 .contact-icon:nth-child(5) {
   max-width: 32px;
-  left: 360px;
-  top: -270px;
+  left: 365px;
+  top: -275px;
 }
 
 
