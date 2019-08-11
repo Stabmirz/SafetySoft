@@ -5,8 +5,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 100vh;
-  flex-direction: column;
+  /* height: 100vh; */
+  /* flex-direction: column; */
   color: #193347;
   font-size: 20px;
   font-weight: 400;
