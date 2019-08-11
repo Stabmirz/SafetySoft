@@ -141,7 +141,8 @@ h4 {
 }
 
 .card-img{
-  width: 200px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .card-deck{
@@ -151,17 +152,20 @@ h4 {
 .card.pricing-card{
   border: none;
   background-color: transparent;
+  margin: 0;
 }
+
 
 .pricing-card:hover{
   cursor: pointer;
-  /* transform: scale(1.1); */
-  border-radius: 10px;
-  background-color: white;
+  border-radius: 1px;
+  background-color: #ffffff;
+  box-shadow: 0 0px 20px rgba(202, 233, 243, 0.664);
 }
 
 .pricing-card:hover img{
   transform: scale(1.1);
+  transition: .4s ease-in;
 }
 
 .top{
@@ -176,6 +180,7 @@ h4 {
 .bottom{
   height: 150px;
   text-align: right;
+  width: 90%; 
 }
 
 .enterprise-bottom{
@@ -184,9 +189,10 @@ h4 {
 }
 
 .pricing-card .card-footer{
-  background-color: #e6f0f5 !important; 
+  background-image: linear-gradient( #dde6eb,#f8fbfc);
   border: none !important;
   visibility: hidden;
+  opacity: 0.8;
 }
 
 .pricing-card:hover .card-footer{
@@ -243,6 +249,7 @@ h4 {
   cursor: pointer;
   transition: .3s ease;
   line-height: 1.2;
+  font-size: 20px;
   border-radius: 8px;
   box-shadow: 0 15px 25px rgba(25,51,71,0.1), inset 0 -4px 0 rgba(0,0,0,0.1);
 }
@@ -253,8 +260,8 @@ h4 {
 
 .btn-1,.btn-2,.btn-3,.btn-4{
   font-weight:700;
-  width: 100%;
-  padding:15px 25px;
+  width: 80%;
+  padding:16px 0px;
 }
 
 .btn-1{
@@ -292,8 +299,8 @@ h4 {
 .btn-5{
   background-color: #d2de40;
   font-weight:700;
-  width: 90%;
-  padding:15px 25px;
+  width: 70%;
+  padding:16px 18px;
 }
 
 .btn-5:hover{
@@ -303,7 +310,6 @@ h4 {
 .card-footer{
   font-size:18px;
   line-height: 1;
-  opacity: 0.8;
 }
 
 small{
