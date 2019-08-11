@@ -790,13 +790,14 @@ p {
 
 .footer {
   position: relative;
-  padding: 200px 0 45px;
+  padding: 200px 0 20px;
 }
 
 .footer-logo-wrap {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .footer-logo {
