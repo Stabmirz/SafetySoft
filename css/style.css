@@ -34,7 +34,7 @@ body{
 }
 
 .gradient{
-  margin: 0;
+  margin: 0; 
   color: #000;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(45deg, #eaf3f7, #c6e1f1);
@@ -155,7 +155,7 @@ h4 {
   margin: 0;
 }
 
-.pricing-card .card-title{
+.pricing-card .top{
   margin-top: 10px;
 }
 
@@ -187,7 +187,7 @@ h4 {
 }
 
 .enterprise-bottom{
-  height: 120px;
+  height: 114px;
   font-size: 18px;
 }
 
@@ -257,7 +257,7 @@ h4 {
   transition: .3s ease;
   line-height: 1.2;
   font-size: 20px;
-  border-radius: 8px;
+  border-radius: 6px;
   box-shadow: 0 15px 25px rgba(25,51,71,0.1), inset 0 -4px 0 rgba(0,0,0,0.1);
 }
 
@@ -267,8 +267,9 @@ h4 {
 
 .btn-1,.btn-2,.btn-3,.btn-4{
   font-weight:700;
-  width: 80%;
+  width: 78%;
   padding:16px 0px;
+  box-shadow: 0 15px 25px rgba(25,51,71,0.1), inset 0 -4px 0 rgba(0,0,0,0.2);
 }
 
 .btn-1{
@@ -378,7 +379,6 @@ h4 {
   font-weight:600;
 }
 
-
 .feature-card-text{
   line-height: 1.2;
   font-size: 17px;
@@ -413,24 +413,28 @@ h4 {
 
 .feature-icon:nth-child(1) {
   max-width: 100px;
-  left: 340px;
+  left: 350px;
   bottom: -65px;
 }
+
 .feature-icon:nth-child(2) {
   max-width: 20px;
   left: 78px;
   bottom: 240px;
 }
+
 .feature-icon:nth-child(3) {
   max-width: 12px;
   left: 815px;
   bottom: 200px;
 }
+
 .feature-icon:nth-child(4) {
   max-width: 60px;
-  left: 720px;
+  left: 730px;
   bottom: 240px;
 }
+
 .feature-icon:nth-child(5) {
   max-width: 20px;
   left: 300px;
@@ -510,26 +514,31 @@ h4 {
   left: 785px;
   bottom: 255px;
 }
+
 .solution-icon:nth-child(2) {
   max-width: 15px;
   left: -60px;
   bottom: 180px;
 }
+
 .solution-icon:nth-child(3) {
   max-width: 12px;
   left: 870px;
   bottom: 330px;
 }
+
 .solution-icon:nth-child(4) {
   max-width: 40px;
   left: -40px;
   bottom: 200px;
 }
+
 .solution-icon:nth-child(5) {
   max-width: 18px;
   left: 135px;
   bottom: 100px;
 }
+
 
 /********************************
     FAQ COLLAPSE/EXPAND STYLES
@@ -542,7 +551,7 @@ h4 {
 }
 
 .faq{
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .faq h1{
@@ -558,13 +567,13 @@ h4 {
 }
 
 .faqanswer {
-	display: none;
-  padding: 8px 20px 0 30px;	
+    display: none;
+  padding: 8px 20px 0 30px; 
   height: auto;
 }
 
 .faqanswer p {
-	font-size: 18px;
+    font-size: 18px;
   margin: 0px 50px 20px 65px;
   padding: 0;
   font-weight: 300;
@@ -580,11 +589,11 @@ h4 {
 }
 
 .togglefaq {
-	text-decoration: none;
+    text-decoration: none;
   color: #193347;
-	font-size: 18px;
-	padding: 3px 30px;
-	display: block;
+    font-size: 18px;
+    padding: 3px 30px;
+    display: block;
   margin-bottom: -1px;
   font-weight:600;
 }
@@ -638,16 +647,19 @@ p {
   left: 485px;
   bottom: -60px;
 }
+
 .faq-icon:nth-child(2) {
   max-width: 15px;
   left: -15px;
   bottom: 140px;
 }
+
 .faq-icon:nth-child(3) {
   max-width: 12px;
   left: 550px;
   bottom: 10px;
 }
+
 .faq-icon:nth-child(4) {
   max-width: 40px;
   left: 0px;
@@ -746,21 +758,25 @@ p {
   left: 400px;
   top: -425px;
 }
+
 .contact-icon:nth-child(2) {
   max-width: 28px;
   left: -53px;
   bottom: 56px;
 }
+
 .contact-icon:nth-child(3) {
   max-width: 60px;
   left: -7px;
   bottom: -25px;
 }
+
 .contact-icon:nth-child(4) {
   max-width: 12px;
   left: -81px;
   bottom: 23px;
 }
+
 .contact-icon:nth-child(5) {
   max-width: 32px;
   left: 360px;
