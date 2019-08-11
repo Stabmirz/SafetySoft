@@ -80,14 +80,14 @@ h3{
   font-weight: 900;
 }
 
-h3.enterprice{
+h3.enterprise{
   color:#a6b02b;
   font-size:36px;
   font-weight:900;
 }
 
 h4 {
-  color: #daebf4;
+  color: #cbe1ee;
   font-size: 68px;
   line-height: 1;
   font-weight: 700;
@@ -155,12 +155,15 @@ h4 {
   margin: 0;
 }
 
+.pricing-card .card-title{
+  margin-top: 10px;
+}
 
 .pricing-card:hover{
   cursor: pointer;
   border-radius: 1px;
   background-color: #ffffff;
-  box-shadow: 0 0px 20px rgba(202, 233, 243, 0.664);
+  box-shadow: 0 0px 30px #eef5f9;
 }
 
 .pricing-card:hover img{
@@ -189,7 +192,7 @@ h4 {
 }
 
 .pricing-card .card-footer{
-  background-image: linear-gradient( #d4e3eb,#f8fbfc);
+  background-image: linear-gradient( #dfeaf0,#eef2f5);
   border: none !important;
   visibility: hidden;
   opacity: 0.8;
@@ -197,6 +200,10 @@ h4 {
 
 .pricing-card:hover .card-footer{
   visibility: visible;
+}
+
+.enterprise-card:hover{
+  height: 75%;
 }
 
 .emp-no{
@@ -309,11 +316,16 @@ h4 {
 
 .card-footer{
   font-size:18px;
-  line-height: 1;
+  line-height: 1.3;
+  opacity: 0.5;
+  text-align: center;
+  padding: 15px 12px;
+  color: #000;
+  font-weight: 300;
 }
 
-small{
-  font-weight: 300;
+.card-footer p{
+  padding-bottom: 0px;
 }
 
 .footer-dollar{
@@ -322,7 +334,7 @@ small{
   letter-spacing: -0.5px;
 }
 
-.content-only{
+.content-only, .safety-soft{
   font-weight: 600;
 }
 
