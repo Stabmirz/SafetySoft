@@ -642,6 +642,7 @@ p {
 
 .container{
   margin-top:50px;
+  margin-left:140px;
 }
 
 .col-4 {
@@ -724,11 +725,11 @@ p {
 
 .contact-icon:nth-child(1) {
   max-width: 72px;
-  left: 425px;
+  left: 400px;
   top: -425px;
 }
 .contact-icon:nth-child(2) {
-  max-width: 34px;
+  max-width: 28px;
   left: -53px;
   bottom: 56px;
 }
@@ -744,7 +745,7 @@ p {
 }
 .contact-icon:nth-child(5) {
   max-width: 32px;
-  left: 385px;
+  left: 360px;
   top: -350px;
 }
 
