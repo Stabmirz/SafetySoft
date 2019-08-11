@@ -1,3 +1,4 @@
+AOS.init();
 
 //faq toggle stuff 
 $('.togglefaq').click(function(e) {
@@ -41,4 +42,5 @@ var $_ = {
 $(document).ready(function () {
     $_.init();
 });
+
 

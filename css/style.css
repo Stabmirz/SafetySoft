@@ -60,6 +60,46 @@ body{
   }
 }
 
+h1 {
+  color: #cbe1ef;
+  font-size: 170px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 125px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+h3{
+  color: #7095a8;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+h3.enterprice{
+  color:#a6b02b;
+  font-size:36px;
+  font-weight:900;
+}
+
+h4 {
+  color: #daebf4;
+  font-size: 68px;
+  line-height: 1;
+  font-weight: 700;
+  margin-top:-30px;
+  letter-spacing: -1px;
+}
+
+/********************
+    Price Section 
+*********************/
+
+
 .price-icon {
   display: block;
   max-width: 40px;
@@ -115,9 +155,13 @@ body{
 
 .pricing-card:hover{
   cursor: pointer;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   border-radius: 10px;
   background-color: white;
+}
+
+.pricing-card:hover img{
+  transform: scale(1.1);
 }
 
 .top{
@@ -184,41 +228,6 @@ body{
   color: #1a3549;
   font-weight: 600;
   margin-top:-22px;
-}
-
-h1 {
-  color: #cbe1ef;
-  font-size: 170px;
-  line-height: 1;
-  font-weight: 900;
-}
-
-h2 {
-  font-size: 125px;
-  line-height: 1;
-  font-weight: 900;
-}
-
-h3{
-  color: #7095a8;
-  font-size: 50px;
-  line-height: 1;
-  font-weight: 900;
-}
-
-h3.enterprice{
-  color:#a6b02b;
-  font-size:36px;
-  font-weight:900;
-}
-
-h4 {
-  color: #daebf4;
-  font-size: 68px;
-  line-height: 1;
-  font-weight: 700;
-  margin-top:-30px;
-  letter-spacing: -1px;
 }
 
 .btn-light{
@@ -311,7 +320,10 @@ small{
   font-weight: 600;
 }
 
-/* Feature Section */
+
+/********************
+  Feature Section
+*********************/
 
 
 .feature-title{
@@ -408,7 +420,11 @@ small{
 }
 
 
-/* More Solutions */
+/********************
+    More Solutions 
+*********************/
+
+
 .solutions{
   margin-top: 185px ;
   margin-left:18%;
@@ -497,7 +513,10 @@ small{
   bottom: 100px;
 }
 
-/* FAQ COLLAPSE/EXPAND STYLES */
+/********************************
+    FAQ COLLAPSE/EXPAND STYLES
+*********************************/
+
 
 .questions{
   margin-top: 80px;
@@ -505,7 +524,7 @@ small{
 }
 
 .faq{
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .faq h1{
@@ -617,9 +636,12 @@ p {
   bottom: 160px;
 }
 
-/* contact */
+/********************
+     Contact
+*********************/
+
 .container{
-  margin-top:150px;
+  margin-top:50px;
 }
 
 .col-4 {
@@ -687,13 +709,12 @@ p {
   display: block;
   margin-top: 50px;
   margin-left: 60px;
-  max-width: 100%;
+  max-width: 120%;
 }
 
 .contacts-image-wrap {
   position: relative;
 }
-
 
 .contact-icon {
   display: block;
@@ -703,11 +724,11 @@ p {
 
 .contact-icon:nth-child(1) {
   max-width: 72px;
-  left: 400px;
-  top: -350px;
+  left: 425px;
+  top: -425px;
 }
 .contact-icon:nth-child(2) {
-  max-width: 36px;
+  max-width: 34px;
   left: -53px;
   bottom: 56px;
 }
@@ -723,12 +744,14 @@ p {
 }
 .contact-icon:nth-child(5) {
   max-width: 32px;
-  left: 365px;
-  top: -275px;
+  left: 385px;
+  top: -350px;
 }
 
 
-/* Footer */
+/**************
+    Footer 
+***************/
 
 .footer {
   position: relative;
@@ -784,6 +807,9 @@ p {
   }
 }
 
+/********************
+    Lift Up  
+*********************/
 
 .lift-up {
   position: fixed;
