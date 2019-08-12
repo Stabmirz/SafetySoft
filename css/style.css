@@ -323,11 +323,28 @@ h4 {
   letter-spacing: -4px;
 }
 
+@media only screen and (max-width: 1670px) {
+  .dollar{
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .dollar{
+    font-size: 65px;
+  }
+}
+
+@media only screen and (max-width: 1559px) {
+  .dollar{
+    font-size: 50px;
+  }
+}
+
 @media only screen and (max-width: 1399px) {
   .dollar{
     font-size: 55px;
     font-weight: 600;
-    letter-spacing: -4px;
   }
 }
 
@@ -469,7 +486,28 @@ h4 {
   .feature{
     width: 95%;
   }
+
+  .feature-subtitle{
+    font-size: 52px;
+    margin-bottom: 15px;
+  }
+  
+  .feature-title h1{
+    font-size:170px;
+  }
+
+  p.card-text.feature-card-text{
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  h3.card-title.feature-card-heading{
+    font-size: 22px;
+    font-weight: 500;
+  }
+
 }
+
 
 .feature-title{
   margin: 135px 125px 75px 168px;
