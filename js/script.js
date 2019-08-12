@@ -38,7 +38,6 @@ var $_ = {
 
 };
 
-
 $(document).ready(function () {
     $_.init();
 });
