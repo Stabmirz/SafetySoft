@@ -484,7 +484,7 @@ h4 {
 
 @media only screen and (max-width: 1399px) {
   .feature{
-    width: 95%;
+    width: 1096px;
   }
 
   .feature-subtitle{
@@ -510,8 +510,9 @@ h4 {
 
 
 .feature-title{
-  margin: 135px 125px 75px 168px;
+  margin: 135px auto 75px auto;
   padding: 0;
+  width: 1096px;
 }
 
 .feature-subtitle{
@@ -612,14 +613,15 @@ h4 {
 
 
 .solutions{
-  margin-top: 185px ;
-  margin-left:18%;
+  width: 905px;
+  margin: 185px auto 0px auto;
 }
 
 .solutions-body{
   display: flex;
   flex-direction: row;
-  margin-top:-30px;
+  width: 1096px;
+  margin: -30px auto 0 auto;
 }
 
 .h2-2{
@@ -655,13 +657,19 @@ h4 {
 .q-text{
   font-size: 26px;
   margin-top:10px;
-  margin-left:150px;
   font-weight: 300;
+  display: block;
+  text-align: center; 
+}
+
+.get-price-btn  {
+  width: 260px;
+  margin: 0px auto 0px auto;
+  display: block;
 }
 
 .info-btn{
   margin-top: 15px;
-  margin-left:-300px;
   background-color: #d2de40;
   font-weight: 700;
   padding:17px 30px;
