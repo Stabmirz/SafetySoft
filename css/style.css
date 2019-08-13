@@ -12,12 +12,6 @@ html,body{
   box-sizing: border-box;
 }
 
-/* @media only screen and (max-width: 600px) {
-  body{
-    font-size: 12px;
-    font-weight: 300;
-  }
-}  */
 
 
 .gradient{
@@ -31,15 +25,11 @@ html,body{
 }
 
 .main-container {
-  margin:11% 7% auto 10%;
+  margin:13% 7% auto 10%;
 }
 
 @media only screen and (max-width: 1399px) {
-  .main-container {
-    margin-left: 120px;
-    margin-right: 80px;
-    margin-top: 160px;
-  }
+
 } 
 
 .small-icon-wrap {
@@ -222,6 +212,10 @@ h4 {
   .middle{
     height: 130px;
   }
+  
+  .enterprise-middle{
+    height: 132px;
+  }
 
   .bottom{
     height: 130px;
@@ -378,7 +372,7 @@ h4 {
 .btn-5{
   background-color: #d2de40;
   font-weight:700;
-  padding: 17px 30px;
+  padding: 15px 30px 20px 30px;
   align-self: center;
 }
 
@@ -405,7 +399,7 @@ h4 {
   font-size:18px;
   opacity: 0.5;
   text-align: center;
-  padding: 15px 12px;
+  padding: 10px 12px 20px 12px;
   color: #000;
   font-weight: 300;
 }
@@ -490,8 +484,11 @@ h4 {
   margin-top: -8px;
 }
 
+.feature-body{
+  margin-top: 8%;
+}
+
 .card.feature-card{
-  padding: 5px;
   border:none;
   background-color: white;
   box-shadow: 0 4px 20px rgba(202, 233, 243, 0.664);
@@ -500,12 +497,18 @@ h4 {
 .card-horizontal {
   display: flex;
   flex: 1 1 auto;
+  margin-left: 20px;
 }
+
 
 .feature-card-heading{
   color:#173347;
   font-size: 26px;
   font-weight:600;
+}
+
+.card-body{
+  align-self: center;
 }
 
 .feature-card-text{
@@ -514,8 +517,8 @@ h4 {
 }
 
 .card.feature-card{
-  min-height: 200px;  
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  min-height: 180px;
 }
 
 .img-square-wrapper.aligncenter {
@@ -684,7 +687,8 @@ p.card-text.feature-card-text{
 }
 
 .faq{
-  margin-top: 30px;
+  margin-top: 10%;
+  margin-left:2%;
 }
 
 .faq h1{
@@ -816,6 +820,13 @@ p.card-text.feature-card-text{
   max-width: 60% !important;
   flex: 0 0 60%;
 }
+
+@media only screen and (max-width: 1399px) {
+  .col-5 {
+    max-width: 64% !important;
+    flex: 1 0 60%;
+  }
+} 
 
 .trial-btn{
   background-color: #d2de40;
