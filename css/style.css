@@ -520,6 +520,12 @@ h4 {
   margin-bottom: 20px;
   min-height: 180px;
 }
+@media only screen and (max-width: 1399px) {
+  .card.feature-card{
+    margin-bottom: 20px;
+    min-height: 230px;
+  }
+}
 
 .img-square-wrapper.aligncenter {
   align-self: center;
