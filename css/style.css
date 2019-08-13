@@ -1,11 +1,9 @@
-body{
+html,body{
   background: url(../images/background.png);
   background-color:#dae6ed;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  /* height: 100vh; */
-  /* flex-direction: column; */
   color: #193347;
   font-size: 20px;
   font-weight: 400;
@@ -14,54 +12,13 @@ body{
   box-sizing: border-box;
 }
 
-/* @media only screen and (max-width: 1600px) {
-  body{
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  body{
-    font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 760px) {
-  body{
-    font-size: 14px;
-  }
-} */
-
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   body{
     font-size: 12px;
     font-weight: 300;
   }
-} 
+}  */
 
-@media only screen and (min-width: 600px) {
-  body{
-    font-size: 14px;
-    font-weight:300;
-  }
-} 
-
-@media only screen and (min-width: 768px) {
-  body{
-    font-size: 16px;
-    font-weight:300;
-  }
-} 
-
-@media only screen and (min-width: 992px) {
-  body{
-    font-size: 18px;
-  }
-} 
-
-@media only screen and (min-width: 1200px) {
-
-}
 
 .gradient{
   margin: 0; 
@@ -74,9 +31,7 @@ body{
 }
 
 .main-container {
-  margin-left: 170px;
-  margin-right: 120px;
-  margin-top: 175px;
+  margin:11% 7% auto 10%;
 }
 
 @media only screen and (max-width: 1399px) {
@@ -211,17 +166,13 @@ h4 {
 }
 
 .pricing-body{
-  margin-top: 110px;
-  margin-left:20px;
+  margin: 7% auto 0% auto;
+  width: 98%; 
 }
 
-.card-img{
-  width: 100%;
-  overflow: hidden;
-}
-
-.card-deck{
-  margin-right: 10px !important;
+.card-body{
+  display: flex;
+  flex-direction: column;
 }
 
 .card.pricing-card{
@@ -231,7 +182,7 @@ h4 {
 }
 
 .pricing-card .top{
-  margin-top: 10px;
+  margin-top: 1%;
 }
 
 .pricing-card:hover{
@@ -252,13 +203,18 @@ h4 {
 
 .middle{
   height: 150px;
-  margin-bottom: 45px;
+  margin-bottom: 23px;
+}
+
+.enterprise-middle{
+  height: 150px;
+  margin-bottom: 13px;
 }
 
 .bottom{
-  height: 150px;
+  height: 155px;
   text-align: right;
-  width: 90%; 
+  align-self: center;
 }
 
 @media only screen and (max-width: 1399px) {
@@ -273,9 +229,16 @@ h4 {
 }
 
 .enterprise-bottom{
-  height: 114px;
   font-size: 18px;
+  height: 135px;
+  display: flex;
+  margin-bottom: 5px;
 }
+
+.enterprise-bottom .card-text{
+  align-self: center;
+}
+
 
 .pricing-card .card-footer{
   background-image: linear-gradient( #dfeaf0,#eef2f5);
@@ -286,10 +249,6 @@ h4 {
 
 .pricing-card:hover .card-footer{
   visibility: visible;
-}
-
-.enterprise-card:hover{
-  height: 75%;
 }
 
 .emp-no{
@@ -308,7 +267,7 @@ h4 {
 }
 
 .start{
-  margin-bottom: -40px;
+  margin-bottom: -10%;
 }
 
 .dollar-sign{
@@ -320,12 +279,12 @@ h4 {
   color: #183447;
   font-size: 75px;
   font-weight: 700;
-  letter-spacing: -4px;
 }
 
 @media only screen and (max-width: 1670px) {
   .dollar{
     font-size: 70px;
+    letter-spacing: auto;
   }
 }
 
@@ -378,9 +337,9 @@ h4 {
 
 .btn-1,.btn-2,.btn-3,.btn-4{
   font-weight:700;
-  width: 78%;
-  padding:16px 0px;
+  padding:16px 30px;
   box-shadow: 0 15px 25px rgba(25,51,71,0.1), inset 0 -4px 0 rgba(0,0,0,0.2);
+  align-self: center;
 }
 
 .btn-1{
@@ -418,11 +377,15 @@ h4 {
 .btn-5{
   background-color: #d2de40;
   font-weight:700;
-  width: 70%;
-  padding:16px 18px;
+  padding: 17px 30px;
+  align-self: center;
 }
 
-@media only screen and (max-width: 1399px) {
+.btn-5 p{
+  margin-bottom: -1px;
+}
+
+/* @media only screen and (max-width: 1399px) {
   
   .btn-1,.btn-2,.btn-3,.btn-4{
     width: 85%;
@@ -431,7 +394,7 @@ h4 {
     width: 80%;
     margin-top:-20px;
   }
-}
+} */
 
 .btn-5:hover{
   background-color: #c2ce3b;;
@@ -439,7 +402,6 @@ h4 {
 
 .card-footer{
   font-size:18px;
-  line-height: 1.3;
   opacity: 0.5;
   text-align: center;
   padding: 15px 12px;
@@ -448,7 +410,7 @@ h4 {
 }
 
 .card-footer p{
-  padding-bottom: 0px;
+  margin-bottom: -8px;
 }
 
 .footer-dollar{
@@ -461,7 +423,7 @@ h4 {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 1399px) {
+/* @media only screen and (max-width: 1399px) {
   
   .card-footer{
     font-size:16px;
@@ -476,13 +438,13 @@ h4 {
   .content-only, .safety-soft{
     font-weight: 500;
   }
-}
+} */
 
 /********************
   Feature Section
 *********************/
 
-@media only screen and (max-width: 1399px) {
+/* @media only screen and (max-width: 1399px) {
   .feature{
     width: 1096px;
   }
@@ -506,11 +468,12 @@ h4 {
     font-weight: 500;
   }
 
-}
+} */
+
 
 
 .feature-title{
-  margin: 135px auto 75px auto;
+  margin: 115px auto 90px auto;
   padding: 0;
   width: 1096px;
 }
@@ -545,8 +508,7 @@ h4 {
 }
 
 .feature-card-text{
-  line-height: 1.2;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -555,10 +517,8 @@ h4 {
   margin-left: 20px;
 }
 
-.feature-body .card-body{
-  height:160px;
-  margin:0px 10px;
-  width:80%;
+.card.feature-card{
+  min-height: 160px;  
 }
 
 .img-square-wrapper.aligncenter {
@@ -568,6 +528,10 @@ h4 {
 .feature-card-image{
   width: 120px;
   height: 80px;
+}
+
+p.card-text.feature-card-text{
+  margin-bottom: -1px;
 }
 
 .feature-icon {
@@ -803,10 +767,10 @@ h4 {
   border-radius: 50%;
 }
 
-p {
+/* p {
   margin: 0;
   padding-bottom: 20px;
-}
+} */
 
 .faq-icon {
   display: block;
