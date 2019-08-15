@@ -935,19 +935,19 @@ p.card-text.feature-card-text{
   }
 }  */
 
-@media only screen and (max-width: 600px) {
-  .col-sm-6{
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-  }
-} 
-
-@media only screen and (min-width: 600px) {
-  .col-sm-6{
+/* @media only screen and (min-width: 700px) {
+  .card.pricing-card, .col-sm-6{
     flex: 0 0 50%;
     max-width: 50%;
   }
 } 
+
+@media only screen and (min-width: 569px) {
+  .card.pricing-card, .col-sm-6{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}  */
 
 @media only screen and (max-width: 1399px) {
 
@@ -967,6 +967,26 @@ p.card-text.feature-card-text{
   .bottom{
     height: 130px;
   }
+
+  .card-footer{
+    font-size:16px;
+  }
+  
+  .card-footer p{
+    margin-bottom: 0px;
+  }
+  
+  .footer-dollar{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -1px;
+  }
+
+  .content-only, .safety-soft{
+    font-weight: 500;
+  }
+
+  /* feature */
 
   .feature-title{
     margin: 80px auto 90px auto;
@@ -1013,6 +1033,10 @@ p.card-text.feature-card-text{
     max-width: 32px;
     left: 260px;
   }
+
+  .footer {
+    padding: 200px 0 80px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1045,7 +1069,7 @@ p.card-text.feature-card-text{
   }
 }
 
-@media only screen and (max-width: 600px)  {
+/* @media only screen and (max-width: 600px)  {
   .contacts {
     padding: 30px 0;
   }
@@ -1059,9 +1083,9 @@ p.card-text.feature-card-text{
     height: auto;
     margin: 20px auto;
   }
-}
+} */
 
-@media only screen and (max-width: 400px)  {
+/* @media only screen and (max-width: 400px)  {
   .contacts-helmet {
     max-width: 100%;
   }
@@ -1082,9 +1106,9 @@ p.card-text.feature-card-text{
   .footer-link {
     margin-bottom: 15px;
   }
-}
+} */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 
   .footer-logo-wrap {
     display: block;
@@ -1101,6 +1125,6 @@ p.card-text.feature-card-text{
   }
 
   .footer-link {
-    font-size: 16px;
+    font-size: 20px;
   }
-}
+} */
