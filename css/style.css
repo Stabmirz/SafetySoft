@@ -345,12 +345,22 @@ h4 {
   background-color: #8fbcd4;
 }
 
+.btn.btn-light.btn-1:active{
+  background-color: #8fbcd4;
+  color: white;
+}
+
 .btn-2{
   background-color: #7095a8;
 }
 
 .btn-2:hover{
   background-color: #688b9c;
+}
+
+.btn.btn-light.btn-2:active{
+  background-color: #688b9c;
+  color: white;
 }
 
 .btn-3{
@@ -361,12 +371,22 @@ h4 {
   background-color: #425864;
 }
 
+.btn.btn-light.btn-3:active{
+  background-color: #425864;
+  color: white;
+}
+
 .btn-4{
   background-color: #273238;
 }
 
 .btn-4:hover{
   background-color: #1e272c;
+}
+
+.btn.btn-light.btn-4:active{
+  background-color: #1e272c;
+  color: white;
 }
 
 .btn-5{
@@ -380,19 +400,13 @@ h4 {
   margin-bottom: -1px;
 }
 
-/* @media only screen and (max-width: 1399px) {
-  
-  .btn-1,.btn-2,.btn-3,.btn-4{
-    width: 85%;
-  }
-  .btn-5{
-    width: 80%;
-    margin-top:-20px;
-  }
-} */
-
 .btn-5:hover{
-  background-color: #c2ce3b;;
+  background-color: #c2ce3b;
+}
+
+.btn.btn-light.btn-5:active{
+  background-color: #c2ce3b;
+  color: white;
 }
 
 .card-footer{
@@ -520,6 +534,7 @@ h4 {
   margin-bottom: 20px;
   min-height: 180px;
 }
+
 @media only screen and (max-width: 1399px) {
   .card.feature-card{
     margin-bottom: 20px;
@@ -844,6 +859,11 @@ p.card-text.feature-card-text{
 
 .trial-btn:hover, .info-btn:hover{
   background-color: #c2ce3b;
+}
+
+.btn.btn-light.info-btn:active, .btn.btn-light.trial-btn:active{
+  background-color: #c2ce3b;
+  color: white;
 }
 
 .contacts-title {
